@@ -1,0 +1,166 @@
+body
+	{
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Varela', sans-serif;
+		font-size: 11pt;
+		font-weight: 300;
+	}
+h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 700;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.actions
+	{
+		text-align: center;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	.button {
+    display: inline-block;
+    padding: 0em 3em;
+    background: #af1641;
+    border-radius: 7px;
+    letter-spacing: 0.20em;
+    line-height: 4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFF;
+}
+div {
+    display: block;
+}
+ /*
+  *menu css
+  */
+  #menu
+	{
+		position: absolute;
+		top: 2em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: #FFF;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		background: #dc572e;
+		border-radius: 7px;
+		color: #FFF;
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #af1641;
+		color: #FFF;
+    }
+    /*
+  *header css
+  */
+  #header-wrapper
+  {
+      background: #af1641;
+  }
+
+  #header
+  {
+      position: relative;
+      padding: 3em 0em;
+  }
+/*
+*logo css
+*/
+#logo
+  {
+      position: absolute;
+      top: 1em;
+      left: 0;
+  }
+  
+  #logo h1
+  {
+      color: #FFF;
+  }
+  
+  #logo a
+  {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #FFF;
+    }
+    /*
+  button css 
+*/
+  
+  
+  #button ul
+  {
+      display: inline-block;
+  }
+  
+  #button li
+  {
+      display: block;
+      float: left;
+      text-align: center;
+  }
+  
+  #buttpn a
+  {
+      padding: 1em 1.5em;
+      letter-spacing: 1px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      color: #FFF;
+  }
+  
+  #button li:hover a, #button li.active a, #button li.active span
+  {
+      background: #dc572e;
+      border-radius: 7px;
+      color: #FFF;
+  }
+  p, ul, ol {
+    margin-top: 0;
+    line-height: 180%;
+}
